@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffe6f0;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .center-box {
+    text-align: center;
+  }
+
+  #btn-no {
+    position: absolute;
+    transition: 0.3s ease;
+  }
+
+  #btn-yes {
+    margin-left: -100px;
+    position: relative;
+    z-index: 1;
+  }
+  @media (max-width: 768px) {
+    #btn-no {
+      max-width: 40vw;
+      font-size: 14px;
+    }
+  }
